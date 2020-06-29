@@ -1,0 +1,25 @@
+{
+  "name": "piu-uno-bot",
+  "version": "1.0.0",
+  "description": "Bot per gli insulti",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeddaZ/piu-uno-bot.git"
+  },
+  "author": "LeddaZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeddaZ/piu-uno-bot/issues"
+  },
+  "homepage": "https://github.com/LeddaZ/piu-uno-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
